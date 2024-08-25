@@ -36,8 +36,6 @@ This project demonstrates how to create a VPC Endpoint for S3 and configure it t
 ### 9. Test Access from a Different VPC
 - **Description:** An access test was performed from an EC2 instance in a different VPC to verify that the bucket is not accessible without routing through the designated VPC Endpoint.
 
-### 10. Success!
-- **Outcome:** All tests were successful, confirming that the S3 bucket is securely accessible only through the VPC Endpoint.
 
 ## Conclusion
 By following these steps, you have successfully secured S3 access within your VPC, ensuring that no external entities can access your S3 bucket unless they are operating within the specified VPC.
